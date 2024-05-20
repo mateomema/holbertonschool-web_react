@@ -1,38 +1,257 @@
-.header-page{
-    background-image: url('./images/Object.jpg');
-    height: auto;
-}
-.paragraph-styles {
-    width: 60%;
-    margin: 0 auto;
-    font-weight: bold;
-}
-
-.logo {
-    position: left;
-    margin-left: -30px;
-}
-.nav {
-    position: relative;
-    margin-left: 150px;
-}
-.li {
-    text-align: right;
-    margin-right: 100px;
-}
-.li-element {
-    padding: 0 10px 0 10px;
-}
-.h1 {
-    display: block;
-    font-size: 2em;
-    margin-block-start: 0.67em;
-    margin-block-end: 0.67em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-    unicode-bidi: isolate;
-}
-.button {
-    border-radius: 10px;
-}
+header {
+    background-image: url(images/Object.jpg);
+    background-repeat: repeat-x;
+    background-position: center;
+    background-size: cover;
+    }
+    
+    body{
+        margin: 0px;
+        padding: 0px
+    }
+    
+    
+    nav{
+        display: flex;
+        padding-top: 20px;
+        padding-left: 10px;
+    }
+    
+    li {
+        display: inline;
+         margin-right: 10px;
+         margin-left: 10px;
+         text-decoration: none;
+         color: white;
+         text-transform: uppercase;
+    }
+    
+    #navBar {
+        margin-left: 1000px;
+    }
+    
+    li a {
+        text-decoration: none;
+        color: white;
+        margin-right: -9px;
+    }
+    
+    .header-data {
+        text-align: center;
+    }
+    
+    #GetSchooled {
+        font-size: 90px;
+        font-family: sans-serif;
+        color: white;
+        margin-bottom: 5px;
+    }
+    
+    #expresionss {
+        word-spacing: normal;
+        font-size: 21px;
+        text-align: center;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        margin-left: -20px;
+        padding: 10px 20px 10px 0px;
+        padding-top: 0;
+    }
+    
+    button {
+        color: white;
+        background-color: #c983ff;
+        text-transform: uppercase;
+        text-align: center;
+        border-radius: 5px;
+        border-width: 5px;
+        border-color: grey;
+        padding: 18px 30px ;
+        font-size: 12px;
+        border-radius: 25px;
+        margin-left: 30px;
+        margin-top: 10px;
+        cursor: pointer;
+    }
+    
+    .pros {
+        text-align: center;
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+    
+    .proImage {
+        text-align: center;
+    }
+    .proImage img {
+        display: inline-block;
+        border-radius: 50%;
+        margin: 20px 35px;
+    }
+    .proNames {
+        text-align: center;
+    }
+    .proNames h3 {
+        display: inline-block;
+        margin: 0px 40px;
+        color: white;
+    }
+    .proAwards {
+        text-align: center;
+    }
+    .proAwards p {
+        display: inline-block;
+        margin: 0 60px 0 50px;
+        color: white;
+        margin-bottom: 100px;
+    }
+    
+    .secondPage {
+        align-items: center;
+        background-color: #c271ff;
+        display: flex;
+    }
+    .secondPage img {
+        border-radius: 50%;
+        margin-right: 50px;
+        text-align: right;
+        margin-left: 330px;
+    }
+    .quote {
+        text-align: right;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        color: white;
+    }
+    
+    #tutorials {
+        text-align: center;
+        color: black;
+    }
+    
+    .DiffTutorials {
+        overflow: hidden;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+    }
+    
+    .childTutorial {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+    }
+    .childTutorial h3 {
+        margin-top: 0;
+    }
+    
+    .childTutorial img  {
+        margin-bottom: 10px;
+    }
+    
+    .playButton img {
+    top: 60px;
+    bottom: 60px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    }
+    
+    .image-container {
+        position: relative; /* Set position to relative */
+        display: inline-block;
+    }
+    
+    .childTutorial .ratings {
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+    }
+    
+    .membership {
+        background-color: rgb(12, 4, 24);
+        color: white;
+        margin-top: 50px;
+        text-align: center;
+        overflow: hidden;
+    }
+    .membership h1 {
+        text-align: center;
+        font-size: 50px;
+        margin-top: 20px;
+    }
+    
+    .childMembership {
+        overflow: hidden;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+    }
+    
+    .membership>button {
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .faq {
+        background-color: white;
+    }
+    
+    .faq h1 {
+        text-align: center;
+        color: black;
+    }
+    .parent {
+        display: flex;
+    }
+    
+    .child {
+        flex: 1;
+        padding: 0 10px; 
+    }
+    
+    .child > div {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px; 
+    }
+    
+    .child > div > div {
+        margin-bottom: 10px; 
+    }
+    
+    footer {
+        background-color: black;
+        color: white;
+    }
+    
+    .footer-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+    }
+    
+    .left-section {
+        display: flex;
+        align-items: center;
+    }
+    
+    .left-section img {
+        margin-right: 10px; 
+        cursor: pointer;
+    }
+    
+    .right-section img {
+        margin-left: 10px; 
+        cursor:pointer;
+    }
+    .full-page-image {
+        background-image: url('images/smile.png'); 
+        background-size: cover;
+        background-position: center;
+        height: 100%;
+        width: 100%;
+    }

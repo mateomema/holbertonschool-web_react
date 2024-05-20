@@ -1,7 +1,27 @@
 .header-page{
     background-image: url('../images/Object.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
 }
+.section1 {
+    text-align: center;
 
+}
+button {
+    border-radius: 30px;
+    background-color: #c271ff;
+    border-color: #C271ff;
+    color: white;
+    border-width: 10px;
+    box-shadow: 2px 2px 4px grey;
+    cursor: pointer;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
 .paragraph-styles {
     width: 60%;
     margin: 0 auto;
@@ -17,19 +37,18 @@
     margin-left: 150px;
 }
 .li {
-    text-align: right;
-    margin-right: 100px;
-}
-.li-element {
-    padding: 0 10px 0 10px;
-}
-.h1 {
+    text-align: center;
+    float: right;
     display: block;
-    font-size: 2em;
-    margin-block-start: 0.67em;
-    margin-block-end: 0.67em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-    unicode-bidi: isolate;
+    padding: 14px 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.h1 {
+    font-size: large;
+    text-align: center;
+}
+body{
+    box-sizing: border-box;
 }
