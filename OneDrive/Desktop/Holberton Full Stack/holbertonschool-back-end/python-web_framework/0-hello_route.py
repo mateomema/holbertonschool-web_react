@@ -1,12 +1,16 @@
 #!/usr/bin/python3
+"""Importing the needed framework"""
 from flask import Flask
+
 
 app = Flask(__name__)
 
-@app.route('/', strict_slashes=False)
+
+@app.route("/", strict_slashes=False)
 def hello():
-    """ A function that displays hello """
-    return 'Hello HBNB!'
+    """A function that returns a simple string"""
+    return "Hello HBNB!"
+
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
