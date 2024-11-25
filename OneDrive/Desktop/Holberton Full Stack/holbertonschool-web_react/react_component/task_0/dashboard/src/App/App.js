@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import Notifications from "../Notifications/Notifications";
 import Footer from "../Footer/Footer";
-import Header from "../Header/Header";
+import Header from "../Header/Header.js";
 import Login from "../Login/Login";
 import "./App.css";
 import CourseList from "../CourseList/CourseList";

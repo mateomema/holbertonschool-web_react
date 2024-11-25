@@ -3,7 +3,7 @@ import { expect } from 'chai';
 import Adapter from 'enzyme-adapter-react-16';
 import { shallow, configure, mount } from 'enzyme';
 import App from './App';
-import Header from '../Header/Header';
+import Header from '../Header/Header.js';
 import Login from '../Login/Login';
 import Footer from '../Footer/Footer';
 import Notifications from '../Notifications/Notifications';
