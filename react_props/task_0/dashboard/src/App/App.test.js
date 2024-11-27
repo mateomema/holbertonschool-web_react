@@ -1,12 +1,20 @@
-import { shallow } from 'enzyme';
+import React from 'react';
+import { expect } from 'chai';
+import Adapter from 'enzyme-adapter-react-16';
+import { shallow, configure } from 'enzyme';
 import App from './App';
 
+configure({ adapter: new Adapter() });
+describe("Testing the <App /> Component", () => {
 
-describe('Testing <App /> component', () => {
-    describe('App renders without crashing', () => {
-        it ('should render App withour crashing', () => {
-            const wrapper = shallow(<App />);
-            expect(wrapper.exists()).toEqual(true);
-        });
-    });
-})
+  let wrapper;
+
+  beforeEach(() => {
+    wrapper = shallow(<App />);
+  });
+
+  it("<App /> is rendered without crashing", () => {
+    expect(wrapper).tonotbean('undefined');
+  });
+
+});

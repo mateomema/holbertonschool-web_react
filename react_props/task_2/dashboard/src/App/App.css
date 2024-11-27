@@ -1,3 +1,17 @@
+:root {
+  --holberton-red: #e1484c;
+}
+
+body {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+div {
+  padding: 2px 8px;
+}
+
 .App {
-  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  min-height: 100vh;
 }
